@@ -1,6 +1,6 @@
 # Tip Calculator
 
-# **Project For Newton School**
+**Project For Newton School**
 - HTML
 - CSS
 - JavaScript
