@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tip Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h2 class="status"> Tip Calculator</h2>
+  <div class="inside">
+    <h3 id="billAmount">Bill Amout :- <input id="bill" type="number" name="Bill" placeholder="₹ Amount to be paid" value=""></h3>
+    <h3 id="Service">How was the Serivce :- <input id="tip" type="number" name="Serivce" placeholder="Not Include %" value=""><p id="serviceRating">Very Poor</p></h3>
+    <h3 id="NumPeople">How many people are sharing the bill? :-<br> <input id="no-of-people" type="number" name="Serivce" placeholder="Number of Person" pattern="" value=""><p id="servicePerson">Very Poor</p></h3>
+  </div>
+  <div class="equal">
+    <h3 class="totalTip">Total Tip Amount<br>
+      <strong>₹ </strong><b class="totalTips" id="tip-per-person">0.00</b></h3>
+    <h3 class="totalPerson">Total Per Person Amount<br><strong>₹ </strong><b class="totalPersons" id="total-per-person">0.00</b></h3>
+  </div>
+</div>
+<script src="main.js" charset="utf-8"></script>
+</body>
+</html>

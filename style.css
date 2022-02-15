@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #4f0041;
+	/* font-family: "Raleway", sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  width: 330px;
+  height: 500px;
+  background: #fff;
+  transform:translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  border: 2px solid #f3f3f3;
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.5);
+}
+.status {
+  position: absolute;
+	left: 50%;
+	top: -25px;
+	width: 200px;
+	transform: translate(-50%);
+	background-color:#001f4f;
+	color: #fff;
+	font-weight: 100;
+	border-radius: 50px;
+  border:2px solid #f3f3f3;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px;
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.5);
+}
+.inside {
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.equal {
+  padding-top: 5px;
+  background:#853476 ;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 15px;
+
+}
+#billAmount,#Service,#NumPeople,.totalTip,.totalPerson {
+text-align: center;
+margin-top: 7px;
+}
+.totalTip {
+  margin-top: 2px;
+}
+.totalPerson {
+  padding-bottom: 2px;
+}
+input,
+select {
+	width: 80%;
+	border: 2px solid #f3f3f3;
+  border-radius: 5px;
+  outline: none;
+  /* background: #cdccfd; */
+	padding: 10px;
+  /* color: #6f6df4 */
+margin-top: 10px
+box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+input[type="number"] {
+  color: #853476;
+  font-weight: bold;
+  /* background: #ffa8ef; */
+  font-family: 'Poppins', sans-serif;
+}
+#serviceRating,#servicePerson {
+  font-size: 10px;
+  font-weight: bold;
+  color: red;
+  margin-top: 3px;
+}
+.totalTip,.totalPerson {
+color: #f3f3f3;
+}
